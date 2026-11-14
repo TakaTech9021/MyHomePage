@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="プロフィール、スキル、制作実績を紹介するポートフォリオサイトです。">
-  <title>Portfolio | Your Name</title>
+  <title>Portfolio | Takahisa Deguchi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -27,10 +27,10 @@
     <section class="hero" id="home">
       <div class="hero-content">
         <p class="eyebrow">HELLO, I'M</p>
-        <h1>Your Name<span>.</span></h1>
-        <p class="hero-lead">Engineer / Creator</p>
-        <p class="hero-description">技術で課題を解決し、使う人にとって価値のあるものをつくる。</p>
-        <a class="button" href="#works">制作実績を見る <span>→</span></a>
+        <h1>Takahisa Deguchi<span>.</span></h1>
+        <p class="hero-lead">Engineer / Writer</p>
+        <p class="hero-description">鹿児島出身 東京近郊</p>
+        <a class="button" href="#works">今までの活動を見る <span>→</span></a>
       </div>
       <div class="hero-art" aria-hidden="true">
         <div class="art-circle"></div>
@@ -43,39 +43,106 @@
     <section class="section about" id="about">
       <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>わたしについて</h2></div>
       <div class="about-body">
-        <div class="avatar">YN</div>
+        <div class="avatar">
+          <img src="images/profile.jpg" alt="プロフィール画像">
+        </div>
         <div>
-          <h3>こんにちは、Your Nameです。</h3>
-          <p>ここに自己紹介を記載します。これまでの経験や得意なこと、仕事や制作で大切にしていることなどを、自分の言葉で紹介してみましょう。</p>
-          <p>Web開発や業務改善など、技術を活用して身近な課題を解決することに興味があります。</p>
+          <h3>こんにちは、Takahisa Deguchiです。</h3>
+          <p>最近鹿児島から東京近郊に引っ越してきました。生活もだんだんと慣れてきた頃です。やっぱり住みやすさはこちらが良いですね。
+            駅近には何でも揃っているし、お節介な人達も居ないです。（鹿児島では色々とトラブルがあり巻き込まれてきた）
+            このホームページでは、僕の大事にしている価値観・信念だったり、自分史を記していきたいと思います。
+
+          </p>
           <a class="text-link" href="about.html">記事について →</a>
         </div>
       </div>
     </section>
 
     <section class="section skills" id="skills">
-      <div class="section-heading"><p class="eyebrow">02 / SKILLS</p><h2>できること</h2></div>
+      <div class="section-heading">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>技術スキル</h2>
+        <p>これまでに習得・経験した技術を紹介します。</p>
+      </div>
+    
       <div class="skill-grid">
-        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Frontend</h3><p>HTML / CSS / JavaScriptを使ったWebページの制作。</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
-        <article class="skill-card"><div class="skill-icon">▤</div><h3>Backend</h3><p>サーバーサイドやデータベースに関する学習・開発。</p><div class="tags"><span>API</span><span>Database</span></div></article>
-        <article class="skill-card"><div class="skill-icon">✳</div><h3>Other</h3><p>業務効率化やデータ活用など、課題に合わせた改善。</p><div class="tags"><span>Git</span><span>DX</span></div></article>
+    
+        <!-- Programming Languages -->
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <span class="stars">★★★★<span>★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>HTML / CSS</span>
+            <span class="stars">★★★★<span>★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>C#</span>
+            <span class="stars">★★★<span>★★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>Python</span>
+            <span class="stars">★★<span>★★★</span></span>
+          </div>
+        </div>
+    
+        <!-- OS -->
+        <div class="skill-card">
+          <h3>Operating Systems</h3>
+          <div class="skill-item">
+            <span>Windows</span>
+            <span class="stars">★★★★<span>★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>Ubuntu</span>
+            <span class="stars">★★★<span>★★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>macOS</span>
+            <span class="stars">★★★<span>★★</span></span>
+          </div>
+        </div>
+    
+        <!-- IDE -->
+        <div class="skill-card">
+          <h3>IDE / Tools</h3>
+          <div class="skill-item">
+            <span>Visual Studio Code</span>
+            <span class="stars">★★★★<span>★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>Visual Studio</span>
+            <span class="stars">★★★<span>★★</span></span>
+          </div>
+          <div class="skill-item">
+            <span>Git / GitHub</span>
+            <span class="stars">★★★<span>★★</span></span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="section works" id="works">
-      <div class="section-heading"><p class="eyebrow">03 / WORKS</p><h2>制作実績</h2></div>
+      <div class="section-heading"><p class="eyebrow">03 / WORKS</p><h2>今までの活動</h2></div>
       <div class="work-grid">
-        <article class="work-card"><div class="work-visual visual-one"><span>PROJECT 01</span><strong>WEB<br>DESIGN</strong></div><div class="work-info"><p class="work-type">WEB SITE</p><h3>ポートフォリオサイト</h3><p>HTML・CSS・JavaScriptで制作した自己紹介サイト。</p></div></article>
-        <article class="work-card"><div class="work-visual visual-two"><span>PROJECT 02</span><strong>TO DO<br>APP</strong></div><div class="work-info"><p class="work-type">WEB APP</p><h3>タスク管理アプリ</h3><p>タスクの追加や完了管理ができるアプリケーション。</p></div></article>
-        <article class="work-card"><div class="work-visual visual-three"><span>PROJECT 03</span><strong>DATA<br>VIEW</strong></div><div class="work-info"><p class="work-type">DATA</p><h3>データ可視化</h3><p>データを整理し、状況を把握しやすくする取り組み。</p></div></article>
+        <a href="https://qiita.com/TakaTech9021?page=1" target="_blank" rel="noopener noreferrer" class="work-card">
+          <article class="work-card"><div class="work-visual visual-one"></div><div class="work-info"><p class="work-type">WEB SITE</p><h3>Qiita</h3><p>プログラミング・数学・CGに関係する記事を挙げています。</p></div></article>
+        </a>
+        <a href="https://openprocessing.org/@u330517/#sketches" target="_blank" rel="noopener noreferrer" class="work-card">
+          <article class="work-card"><div class="work-visual visual-two"></div><div class="work-info"><p class="work-type">ART</p><h3>Processing</h3><p>プログラム上で簡単にお絵描きできます。<br>フラクタル図形・ランダムウォーク</br></p></div></article>
+        </a>
+        <a href="https://github.com/TakaTech9021/game" target="_blank" rel="noopener noreferrer" class="work-card">
+          <article class="work-card"><div class="work-visual visual-three"></div><div class="work-info"><p class="work-type">GAME</p><h3>Javascript</h3><p>ブロックゲーム・オセロ・スネークゲームなど<br>Githubに上げています。</br></p></div></article>
+        </a>
       </div>
-      <p class="hint">※ 上記はサンプルです。自分の制作物や実績に置き換えてください。</p>
     </section>
 
     <section class="contact" id="contact">
-      <p class="eyebrow">04 / CONTACT</p><h2>一緒につくりましょう。</h2>
-      <p>ご相談・お問い合わせはメールからお気軽にどうぞ。</p>
-      <a class="button button-light" href="mailto:your.email@example.com">メールを送る <span>↗</span></a>
+      <p class="eyebrow">04 / CONTACT</p><h2>ご感想はこちら</h2>
+      <p>ご相談・お問い合わせはDMまたはメールからお気軽にどうぞ。</p>
+      <a class="button button-light" href="mailto:takafitber.qh802@gmail.com">メールを送る <span>↗</span></a>
     </section>
   </main>
 
