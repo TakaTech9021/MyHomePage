@@ -65,6 +65,14 @@ a { color: inherit; text-decoration: none; }
   background-position: center;
   background-repeat: no-repeat;
 }
+.card-image3 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/yashiki.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .image-label { position: absolute; right: 22px; bottom: 12px; color: rgba(255,255,255,.8); font-size: 54px; font-weight: 600; }
 .card-content { padding: 34px 38px; display: flex; flex-direction: column; align-items: flex-start; }
 .card-meta { display: flex; gap: 18px; color: #8994a1; font-size: 10px; letter-spacing: .1em; }
